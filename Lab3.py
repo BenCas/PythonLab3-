@@ -1,19 +1,14 @@
-from collections import namedtuple
+class Product(object):
+    def _init_(self, name, price):
+        self.name = name
+        self.price = price
 
 class Cart(object):
-    def __init__(self, name, price):
-        self.name = []
-        self.price = []
-    
-class Product(object)
-    def _init_(self, name, price):
-        self.name = []
-        self.price = []
+    def __init__(self, product):
+        self.product = []        
 
-      def addProduct(self, product)
+        def addProduct(self, product)
         self.product.append(product)
-
-Product = namedtuple("name", "Price")
 
 cart = Cart()
 cart.addProduct(Product("Orange", "4.99"))
