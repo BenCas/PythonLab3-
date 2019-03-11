@@ -4,22 +4,23 @@ class Product(object):
         self.price = price
 
 class Cart(object):
-    def __init__(self, product):
+    def __init__(self):
         self.product = []        
 
-        def addProduct(self, product)
+    def addProduct(self, product):
         self.product.append(product)
 
 cart = Cart()
 cart.addProduct(Product("Orange", "4.99"))
 cart.addProduct(Product("Apple", "3.99"))
 
-subTotal = (cart)
-print “subtotal = $” +str(subtotal)
+subTotal = ()
+print “subtotal = $” +str(subTotal)
 
 salesTax = subtotal * 0.06
 print “sales tax = $” +str(salesTax)
 
-totalAmount = (Subtotal + SalesTax)
+totalAmount = (subTotal + salesTax)
 
 print “Total = $” +str(totalAmount)
+
